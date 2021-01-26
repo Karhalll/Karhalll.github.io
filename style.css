@@ -31,8 +31,9 @@ a {
 }
 
 #profile-picture img {
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+  width: 250PX;
+  height: 250PX;
   border-radius: 50%;
   filter: grayscale(100%);
 }
